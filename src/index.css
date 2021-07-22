@@ -1,13 +1,81 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  padding: 5px;
+  background-color: black;
+  height: 50px;
+  color: aliceblue;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.rightSide{
+  border-bottom: .1rem solid silver;
+  padding: 1rem;
+  
+}
+.leftSide{
+  padding: 0px;
+  text-align: center;
+}
+.leftSide hr{
+  /* border:.1px solid silver; */
+  border: .01rem solid;
+  margin: 8px 0;
+
+}
+.product{
+  margin-top: 20px;
+}
+.product ul{
+  list-style: none;
+  padding: 0;
+}
+.product-item{
+  width: 32%;
+  /* background: blue; */
+  /* background: #f0f0f0; */
+display: inline-block;
+margin: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.product-item img{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.product-item p{
+  font-size: 20px;
+  text-align: center;
+margin-bottom: 10px;
+}
+.product-item p:hover{
+  color: #f0c040;
+}
+.product-item span{
+  font-size: 20px;
+  text-align: center;
+}
+.button{
+  float: right;
+  /* margin-right: 10px; */
+  padding: 5px 20px;
+  background-color: #f0c040;
+  border: none;
+}
+.footer{
+  padding: 10px;
+  background-color: black;
+  height: 50px;
+  color: aliceblue;
+  text-align: center;
 }
