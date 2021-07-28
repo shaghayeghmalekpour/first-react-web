@@ -20,12 +20,12 @@ html, body{
 }
 .rightSide{
   border-bottom: .1rem solid silver;
-  padding: 1rem;
-  
+ padding-left: 10px;
 }
 .leftSide{
-  padding: 0px;
+  padding: 10px;
   text-align: center;
+  /* background-color: blue; */
 }
 .leftSide hr{
   /* border:.1px solid silver; */
@@ -35,15 +35,14 @@ html, body{
 }
 .product{
   margin-top: 20px;
+  padding: 0px 30px;
 }
 .product ul{
   list-style: none;
   padding: 0;
 }
 .product-item{
-  width: 32%;
-  /* background: blue; */
-  /* background: #f0f0f0; */
+  width: 25%;
 display: inline-block;
 margin: 5px;
 }
